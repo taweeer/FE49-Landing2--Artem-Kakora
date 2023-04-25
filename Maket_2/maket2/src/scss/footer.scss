@@ -1,0 +1,67 @@
+.footer {
+  background-color: $bgfootercolor;
+  padding: 71px 0;
+
+  &-wrap {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+   
+
+  }
+  &-card {
+    width: 315px;
+    margin: 0 15px;
+    
+   
+  }
+  &-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: $_18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: $white;
+    text-align: center;
+    margin-bottom: 29px;
+  }
+  &-description {
+    
+    
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: $white;
+    
+    
+  }
+  &-link{
+    width:  171px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+    
+    
+
+    a {
+        width: 39px;
+        height: 39px;
+        border: 1px solid $grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $grey;
+        margin-top: 18px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import "../scss/_varColors";
+@import "../scss/_varFontSize";
+@import "../scss/cdn";
+@import "../scss/header";
+@import "../scss/features";
+@import "../scss/our_team";
+@import "../scss/footer";
+@import "../scss/download";
+@import "../scss/footer-bottom";
+
+
+html {
+    font-family: "Raleway", sans-serif;
+
+
+}
+.conteiner {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+    
+}

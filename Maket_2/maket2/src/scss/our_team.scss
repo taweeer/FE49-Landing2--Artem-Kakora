@@ -1,0 +1,92 @@
+.our-team {
+  padding: 114px 0;
+  background-color: $bgcolor;
+
+  .our-team-wrap {
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    @media ( max-width:1124px) {
+        
+    }
+    
+    .person-card {
+      width: 270px;
+      margin: 20px 5px;
+      @media ( max-width:1124px){
+        width: 270px;
+      
+       
+      }
+      &-img {
+        margin-bottom: 30px;
+      }
+
+      &-name {
+        margin-bottom: 30px;
+
+        .name {
+          display: block;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          display: flex;
+          align-items: center;
+          text-transform: capitalize;
+          color: $black;
+          margin-bottom: 5px;
+        }
+        .job {
+          display: block;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          color: $red;
+        }
+      }
+
+      .description-person {
+        width: 270px;
+        margin-bottom: 38px;
+
+        p {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          color: $grey;
+        }
+      }
+      &-icon {
+        width: 130px;
+        height: 39px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+
+        a {
+          border: 1px solid $grey;
+          width: 39px;
+          height: 39px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: $grey;
+        }
+      }
+    }
+  }
+}

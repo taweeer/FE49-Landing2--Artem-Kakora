@@ -1,0 +1,76 @@
+.download {
+  padding: 114px 0;
+  background-color: $bgcolor;
+
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  &-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: $black;
+    text-transform: capitalize;
+    line-height: 70px;
+
+    &-description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+
+      p {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: $black;
+      }
+    }
+  }
+  &-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+
+    a {
+      
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: $white;
+      border: 1px solid $red;
+      padding: 20px 80px;
+      background-color: $bgbtn_normal;
+      transition: 0.2s;
+      
+
+      &:hover {
+        background-color:$bgcbtn_hover;
+
+      }
+      &:active {
+        
+        box-shadow: 4px 4px 30px $bgbtn_normal;
+        transition: 0.2s;
+      }
+    }
+  }
+}

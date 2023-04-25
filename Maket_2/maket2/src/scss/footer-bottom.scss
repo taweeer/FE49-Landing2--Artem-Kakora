@@ -1,0 +1,31 @@
+.footer-bottom {
+  padding: 24px 0;
+  background-color: #2c3154;
+
+  &-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+
+    &-item {
+      width: 370px;
+      text-align: center;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: $_18px;
+      line-height: 21px;
+      text-transform: capitalize;
+      p {
+
+        color: $grey;
+
+        span {
+
+          color: $white;
+        }
+      }
+    }
+  }
+}
