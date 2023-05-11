@@ -1,0 +1,53 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import "../scss/_varColors";
+@import "../scss/_mixins";
+@import "../scss/_varFontSize";
+@import "../scss/cdn";
+@import "../scss/header";
+@import "../scss/features";
+@import "../scss/our_team";
+@import "../scss/footer";
+@import "../scss/download";
+@import "../scss/footer-bottom";
+@import "../scss/work";
+@import "../scss/slider";
+
+
+
+html {
+    font-family: "Raleway", sans-serif;
+    @media (max-width: 1024px) {
+     font-size: 16px;
+      
+    }
+    @media (max-width: 780px) {
+        // font-size: 18px;
+         
+       }
+
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+    // @media (max-width: 992px) {
+    //     width: 750px;
+    //   }
+    //   @media (max-width: 767px) {
+    //     width: 90%;
+    //   }
+    //   @media (max-width: 360px) {
+    //     width: 100%;
+    //   }
+    
+}

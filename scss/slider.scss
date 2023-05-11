@@ -1,0 +1,169 @@
+.wraper {
+  background-color: $bgcolor;
+  padding: 10px 0;
+  @media (max-width: 750px) {
+    // height: 800px;
+    
+  }
+}
+
+.swiper-container {
+  height: 535px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin: auto;
+
+  
+  @media (max-width: 750px) {
+    height: 650px;
+    
+  }
+}
+.swiper-wrapper {
+  
+  
+  @media (max-width: 750px) {
+    
+  }
+}
+.swiper-slide {
+  height: 490px;
+  width: 100%;
+  display: flex;
+  
+
+  
+
+  @media (max-width: 750px) {
+    
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+
+ 
+  &-img {
+    display: flex;
+    
+    width: 100%;
+    height: 490px;
+   
+
+    @media (max-width: 750px) {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+      height: 400px;
+      background-color: #7e5d6f;
+      padding: 30px;
+    }
+    
+}
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      overflow: hidden;
+
+      @media (max-width: 750px) {
+       height: 350px;
+       width: 350px;
+       border-radius: 50%;
+       
+       background-color: #7e5d6f;
+        
+    }
+    @media (max-width: 450px) {
+      height: 250px;
+      width: 250px;
+      
+       
+   }
+  }
+
+  &-info {
+    height: 490px;
+    width: 100%;
+    background-color: #7e5d6f;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    
+
+    
+
+    @media (max-width: 750px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 400px;
+      padding-bottom: 120px;     
+    }
+  }
+
+  &-title {
+    font-family: "Cardo";
+    font-style: italic;
+    font-weight: 400;
+    font-size: $_36px;
+    
+    text-transform: capitalize;
+    color: $white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    width: 471px;
+    margin-bottom: 20px;
+    
+    @media (max-width:750px) {
+      margin-bottom: 5px;
+      font-size: $_24px;
+      text-align: center;
+    }
+    
+  }
+
+  &-decription {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: $_13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $white;
+    text-align: left;
+    display: inline-block;
+    width: 471px;
+    
+    @media (max-width:750px) {
+      text-align: center;
+    }
+  }
+}
+.swiper-pagination {
+}
+.swiper-pagination-bullet {
+  width: $_14px;
+  height: $_14px;
+  line-height: 20px;
+  font-size: $_14px;
+ 
+  background: #7e5d6f;
+  border: 1px solid #7e5d6f;
+
+  
+}
+.swiper-button-next, .swiper-button-prev {
+  @media (max-width:750px) {
+    display: none;
+  }
+}
+.pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,14px);
+}

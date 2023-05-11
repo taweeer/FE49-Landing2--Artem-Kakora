@@ -1,0 +1,106 @@
+@mixin nav-list-text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: $_13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $white;
+}
+@mixin header-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: $_64px;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+@mixin header-decription {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_24px;
+    line-height: 28px;
+    color: $white;
+}
+@mixin button-normal {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: $_24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    border: 1px solid $red;
+    padding: 25px 98px;
+    background-color: $bgbtn_normal;
+    transition: 0.3s;
+    // margin-bottom: 120px;
+}
+@mixin button-hover {
+        background-color:$bgcbtn_hover;
+        transition: 0.3s;
+}
+
+
+@mixin button-active {
+        box-shadow: 4px 4px 30px $bgbtn_normal;
+        transition: 0.3s;
+}
+@mixin title-card-text {
+font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: $_24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+@mixin decription-card-text {
+    text-align: center;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_14px;
+    line-height: 16px;
+    text-align: center;
+    color: $grey;
+
+}
+@mixin button-normal-tablet {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: $_24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    border: 1px solid $red;
+    padding: 25px 70px;
+    background-color: $bgbtn_normal;
+    transition: 0.3s;
+    // margin-bottom: 120px;
+}
+@mixin button-normal-mobile {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: $_24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    border: 1px solid $red;
+    padding: 15px 52px;
+    background-color: $bgbtn_normal;
+    transition: 0.3s;
+    // margin-bottom: 52px;
+}
